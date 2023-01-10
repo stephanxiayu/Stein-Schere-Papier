@@ -39,27 +39,15 @@ elif zahl==2:
     print(scissors)   
 else: 
     print("alter, bist du dämlich?!")     
-# Ich=[scissors,paper, rock]
+
 
 Computer=[rock,paper,scissors, ]
 
-# Ich=random.choice(Ich)
+
 Computer=random.choice(Computer) 
 print("wahl des Computers:")
 print(Computer)
-# rock=0
-# paper=1
-# scissors=2
-# print(Ich)
-
-# if Computer==rock:
-#     print("stein")
-# elif Computer==paper:
-#     print("papier")    
-# elif Computer==scissors :
-#     print("Stephan hat gewonnen")     
-# else: 
-#     print("schadeeee")       
+     
 
 if str(zahl)==str(0) and Computer==scissors:
     print("Du hast gegen den Computer gewonnen! Juhu")
